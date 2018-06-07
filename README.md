@@ -1,4 +1,4 @@
-#Terminal UI for Go
+# Terminal UI for Go
 
 A UI library for terminal applications.
 
