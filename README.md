@@ -16,7 +16,7 @@ package main
 import "github.com/AlkBur/termui"
 
 func main() {
-    runtime.LockOSThread()
+	runtime.LockOSThread()
 	defer runtime.UnlockOSThread()
 
 	box := termui.NewFlexbox().
